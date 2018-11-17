@@ -2,6 +2,23 @@
   "name": "uow-sequelize",
   "version": "0.1.0",
   "description": "Unit of Work pattern implementation for Sequelize",
+  "author": "pilagod <pilagooood@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "transaction",
+    "typeorm",
+    "uow",
+    "unit-of-work",
+    "unit-of-work-pattern"
+  ],
+  "homepage": "https://github.com/pilagod/uow-sequelize",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pilagod/uow-sequelize.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pilagod/uow-sequelize/issues"
+  },
   "main": "index.js",
   "scripts": {
     "build": "rimraf ./dist && tsc",
@@ -9,8 +26,6 @@
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
-  "author": "pilagod <pilagooood@gmail.com>",
-  "license": "MIT",
   "devDependencies": {
     "@types/jest": "^23.3.9",
     "@types/sequelize": "^4.27.30",
