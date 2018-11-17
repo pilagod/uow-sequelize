@@ -1,12 +1,12 @@
 {
   "name": "uow-sequelize",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Unit of Work pattern implementation for Sequelize",
   "author": "pilagod <pilagooood@gmail.com>",
   "license": "MIT",
   "keywords": [
     "transaction",
-    "typeorm",
+    "sequelize",
     "uow",
     "unit-of-work",
     "unit-of-work-pattern"
