@@ -3,7 +3,7 @@ uow-sequelize
 [![Coverage Status](https://coveralls.io/repos/github/pilagod/uow-sequelize/badge.svg?branch=master)](https://coveralls.io/github/pilagod/uow-sequelize?branch=master)
 =============
 
-Unit of Work pattern implementation for [Sequelize](https://github.com/sequelize/sequelize)
+Unit of Work pattern implementation for [Sequelize](https://github.com/sequelize/sequelize), based on [uow-template](https://github.com/pilagod/uow-template).
 
 Installation
 ------------
