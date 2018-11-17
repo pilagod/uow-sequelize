@@ -1,0 +1,29 @@
+{
+  "name": "uow-sequelize",
+  "version": "0.1.0",
+  "description": "Unit of Work pattern implementation for Sequelize",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf ./dist && tsc",
+    "lint": "tslint -p ./",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "author": "pilagod <pilagooood@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^23.3.9",
+    "@types/sequelize": "^4.27.30",
+    "@types/sinon": "^5.0.5",
+    "jest": "^23.6.0",
+    "pg": "^7.6.1",
+    "rimraf": "^2.6.2",
+    "sequelize": "^4.41.2",
+    "sinon": "^7.1.1",
+    "ts-jest": "^23.10.4",
+    "tslint": "^5.11.0",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.1.6",
+    "uow-template": "^1.0.0"
+  }
+}
